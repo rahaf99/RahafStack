@@ -1,0 +1,13 @@
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.exe
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.deps.json
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.runtimeconfig.json
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.runtimeconfig.dev.json
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.dll
+D:\StackTask\StackTask\bin\Debug\netcoreapp3.1\StackTask.pdb
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.csprojAssemblyReference.cache
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.AssemblyInfoInputs.cache
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.AssemblyInfo.cs
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.csproj.CoreCompileInputs.cache
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.dll
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.pdb
+D:\StackTask\StackTask\obj\Debug\netcoreapp3.1\StackTask.genruntimeconfig.cache
