@@ -36,7 +36,6 @@ namespace StackTask
 				s.clear();
 				Console.WriteLine("---------------");
 				s.print();
-				Console.WriteLine("---------------");
 			}
     }
 }
