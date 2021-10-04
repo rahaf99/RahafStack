@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yr9TS8epnXYmJSI5DNwbsxoZcaM8F6WHJacsGegDY9kikkIAAuGDUIRUwS/q0bQiPo/fQmgb0Jnt1lZWmQGCUA==",
+  "success": true,
+  "projectFilePath": "D:\\StackTask\\StackTask\\StackTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rahaf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
