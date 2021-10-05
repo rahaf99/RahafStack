@@ -4,10 +4,10 @@ using System.Text;
 
 namespace StackTask
 {
-    class StackUsingList<T>
+    class StackList<T> : IStack<T>
     {
         private readonly List<T> _stackList;
-        public StackUsingList()
+        public StackList()
         {
             _stackList = new List<T>();
         }

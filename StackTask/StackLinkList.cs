@@ -4,10 +4,10 @@ using System.Text;
 
 namespace StackTask
 {
-    class StackUsingLinkList<T>
+    class StackLinkList<T> : IStack<T>
     {
         private readonly LinkedList<T> _stackLinkList;
-        public StackUsingLinkList()
+        public StackLinkList()
         {
             _stackLinkList = new LinkedList<T>();
         }

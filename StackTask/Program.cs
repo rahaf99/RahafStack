@@ -2,12 +2,14 @@
 
 namespace StackTask
 {
-    class Program
+	public delegate void StackDelegate(String message);
+	class Program
     {
-        static void Main(string[] args)
+		static void Main(string[] args)
         {
+			StackDelegate del = Print;
 			Console.WriteLine("let's start!!");
-			StackUsingLinkList<int> s = new StackUsingLinkList<int>();
+			StackLinkList<int> s = new StackLinkList<int>();
 			s.push(1);
 			s.push(2);
 			s.push(3);
@@ -15,14 +17,19 @@ namespace StackTask
 			s.push(5);
 			s.push(6);
 			s.print();
-			Console.WriteLine("s.pop: "+s.pop());
+			del("s.pop: "+s.pop());
 			s.print();
-			Console.WriteLine("s.peak: ");
+			del("s.peak: ");
 			s.peak();
 			s.print();
-			Console.WriteLine("s.clear: ");
+			del("s.clear: ");
 			s.clear();
 			s.print();
 		}
-    }
+		//StackDelegate del = (string message) =>  Console.WriteLine(message);
+		static void Print(string message)
+		{
+			Console.WriteLine(message);
+		}
+	}
 }
