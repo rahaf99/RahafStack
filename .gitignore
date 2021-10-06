@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *.suo
 .vs/StackTask/v16/.suo
 StackTask/bin/Debug/netcoreapp3.1/StackTask.dll
@@ -6,6 +6,4 @@ StackTask/bin/Debug/netcoreapp3.1/StackTask.pdb
 StackTask/obj/Debug/netcoreapp3.1/StackTask.csprojAssemblyReference.cache
 StackTask/obj/Debug/netcoreapp3.1/StackTask.dll
 StackTask/obj/Debug/netcoreapp3.1/StackTask.pdb
-=======
 
->>>>>>> e5eff3db1954e9ef1a95dea1a35c6edce790aabf
