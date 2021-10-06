@@ -14,19 +14,19 @@ namespace StackTask
             _stackList = new List<T>();
         }
 
-        public void push(T a)
+        public void Push(T a)
         {
             _stackList.Add(a);
         }
 
-        public T pop()
+        public T Pop()
         {
             T x = _stackList[_stackList.Count - 1];
             _stackList.RemoveAt(_stackList.Count - 1);
             return x;
         }
 
-        public void print()
+        public void Print()
         {
             foreach (var item in _stackList)
                 {
@@ -34,21 +34,22 @@ namespace StackTask
                 }
         }
 
-        public void peak()
+        public void Peak()
         {
             if (_stackList.Count >= 1)
                 Console.WriteLine(_stackList[_stackList.Count - 1].ToString());
         }
 
-        public void clear()
+        public void Clear()
         {
             _stackList.Clear();
         }
-        public void printByDelegate(Action<T> del)
+
+        void IStack<T>.PrintByDelegate(Action<T> stackDelegate)
         {
-            foreach (var item in _stackList)
+            foreach (var stackElement in _stackList)
             {
-                del(item);
+                stackDelegate(stackElement);
             }
         }
     }

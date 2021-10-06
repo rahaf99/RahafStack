@@ -6,10 +6,11 @@ namespace StackTask
 {
     public interface IStack<T>
     {
-        void push(T a);
-        T pop();
-        void print();
-        void peak();
-        void clear();
+        void Push(T a);
+        T Pop();
+        void Print();
+        void Peak();
+        void Clear();
+        void PrintByDelegate(Action<T> stackDelegate);
     }
 }

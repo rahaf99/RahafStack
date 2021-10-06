@@ -9,16 +9,14 @@ namespace StackTask
 		static void Main(string[] args)
         {
 			Console.WriteLine("let's start!!");
-			StackLinkList<int> s = new StackLinkList<int>();
-			s.push(1);
-			s.push(2);
-			s.push(3);
-			s.push(4);
-			s.push(5);
-			s.push(6);
-			s.printByDelegate((x)=> { Console.Write(x.ToString()+", "); });
-		
+			IStack<int> s = new StackLinkList<int>();
+			s.Push(1);
+			s.Push(2);
+			s.Push(3);
+			s.Push(4);
+			s.Push(5);
+			s.Push(6);
+			s.PrintByDelegate((x)=> { Console.Write(x.ToString()+", "); });
 		}
-		
 	}
 }
