@@ -26,13 +26,10 @@ namespace StackTask
 
         public void print()
         {
-            if (_stackLinkList.Count > 0)
-            {
                 foreach (var item in _stackLinkList)
                 {
                     Console.WriteLine(item.ToString());
-                }
-            }
+                }        
         }
 
         public void peak()
@@ -44,6 +41,14 @@ namespace StackTask
         public void clear()
         {
             _stackLinkList.Clear();
+        }
+        
+        public void printByDelegate(Action<T> del)
+        {
+            foreach (var item in _stackLinkList)
+            {
+                del(item);
+            }
         }
     }
 }

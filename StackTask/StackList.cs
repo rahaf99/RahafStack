@@ -4,8 +4,10 @@ using System.Text;
 
 namespace StackTask
 {
+
     class StackList<T> : IStack<T>
     {
+        
         private readonly List<T> _stackList;
         public StackList()
         {
@@ -26,13 +28,10 @@ namespace StackTask
 
         public void print()
         {
-            if (_stackList.Count > 0)
-            {
-                foreach (var item in _stackList)
+            foreach (var item in _stackList)
                 {
                     Console.WriteLine(item.ToString());
                 }
-            }
         }
 
         public void peak()
@@ -44,6 +43,13 @@ namespace StackTask
         public void clear()
         {
             _stackList.Clear();
+        }
+        public void printByDelegate(Action<T> del)
+        {
+            foreach (var item in _stackList)
+            {
+                del(item);
+            }
         }
     }
 }
